@@ -14,15 +14,15 @@ A simple Python number guessing game. Choose a difficulty level and try to guess
 
 ## Difficulty Levels
 
-| Level | Number Range | Time Limit |
-|---|---|---|
-| Easy | 1–50 | 60 seconds |
-| Medium | 1–100 | 45 seconds |
-| Hard | 1–200 | 30 seconds |
+| Level  | Number Range | Time Limit |
+| ------ | ------------ | ---------- |
+| Easy   | 1–50         | 60 seconds |
+| Medium | 1–100        | 45 seconds |
+| Hard   | 1–200        | 30 seconds |
 
 ## Project Structure
 
-```text
+```text id="k5y8zz"
 .
 ├── .gitignore
 ├── README.md
@@ -43,7 +43,7 @@ A simple Python number guessing game. Choose a difficulty level and try to guess
 
 Run the game from the project root:
 
-```bash
+```bash id="6l1gqv"
 python src/main.py
 ```
 
@@ -64,7 +64,7 @@ After guessing the number correctly, you can choose whether to play again.
 
 ## Example
 
-```text
+```text id="8n0c9r"
 Choose difficulty: Easy, Medium, or Hard (or type 'q' to quit): medium
 
 You have 44 seconds left.
@@ -82,3 +82,7 @@ Congratulations, you guessed the number in 3 attempts!
 Do you want to play again? (yes/no): no
 Goodbye! Thanks for playing!
 ```
+
+## License
+
+This project is licensed under the MIT License.
